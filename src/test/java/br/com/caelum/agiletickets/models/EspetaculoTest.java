@@ -73,6 +73,7 @@ public class EspetaculoTest {
 		assertFalse(ivete.Vagas(5, 3));
 	}
 
+	
 	private Sessao sessaoComIngressosSobrando(int quantidade) {
 		Sessao sessao = new Sessao();
 		sessao.setTotalIngressos(quantidade * 2);
@@ -80,5 +81,8 @@ public class EspetaculoTest {
 
 		return sessao;
 	}
+	
+	
+	
 	
 }
