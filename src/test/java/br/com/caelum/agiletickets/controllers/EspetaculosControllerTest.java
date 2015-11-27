@@ -116,7 +116,7 @@ public class EspetaculosControllerTest {
 
 		controller.reserva(1234l, 3);
 
-		assertThat(sessao.getIngressosDisponiveis(), is(1));
+		assertThat(sessao.getIngressosDisponiveis(), is(2));
 	}
 
 }
